@@ -319,7 +319,7 @@ static AssModel *LoadModel( const char *name, int frame ){
 	               | aiProcess_ValidateDataStructure
 	               | aiProcess_FlipUVs
 	               | aiProcess_FlipWindingOrder
-	               | aiProcess_PreTransformVertices
+//	               | aiProcess_PreTransformVertices
 	               | aiProcess_RemoveComponent
 	               | aiProcess_SplitLargeMeshes;
 	// rotate the whole scene 90 degrees around the x axis to convert assimp's Y = UP to Quakes's Z = UP
